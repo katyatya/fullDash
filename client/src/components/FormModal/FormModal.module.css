@@ -1,0 +1,54 @@
+.box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 500;
+	background-color: #2f315a;
+	border-radius: 15px;
+	padding: 40px;
+}
+.form {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+}
+label {
+	font-size: large;
+}
+input {
+	width: 100%;
+	padding: 10px;
+	color: #fff;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+input:focus {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.form_button {
+	background: #6cc7ae;
+	border-radius: 10px;
+	padding: 10px;
+	color: #000000;
+	max-width: 150px;
+	cursor: pointer;
+}
+select {
+	width: 100%;
+	padding: 7px;
+	font-size: 14px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	background-color: #ffffffb4;
+	outline: none;
+	-webkit-appearance: none; /* Убираем стандартное оформление */
+	-moz-appearance: none;
+	appearance: none;
+}
+.close {
+	font-size: 30px;
+}
